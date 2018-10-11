@@ -17,8 +17,6 @@ use EUAutomation\GraphQL\Client;
 
 <?php
 
-$headers = [];
-
 # unite cms credentials
 $unite_cms_endpoint = 'https://XXXX.unitecms.io/mydomain/api';
 $unite_cms_api_token = 'XXXXXXXXX';

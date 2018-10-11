@@ -2,7 +2,7 @@ unite cms GraphQL and responsive image resizing example
 ================================================
 
 This example shows how to fetch image data from unite-cms over GraphQL and shows some responsive image resizing with 2 image resize Services (cloudimage, thumbor). 
-It's written in poor PHP and is using https://github.com/euautomation/graphql-client as graphQL client.
+It's written in basic PHP and is using https://github.com/euautomation/graphql-client as graphQL client.
 
 ## Installation
 
@@ -14,4 +14,4 @@ It's written in poor PHP and is using https://github.com/euautomation/graphql-cl
 
     4) edit index.php and change unite cms credentials and resizing urls
 
-    5) open index-php in browser
+    5) open index.php in browser
