@@ -12,6 +12,6 @@ It's written in poor PHP and is using https://github.com/euautomation/graphql-cl
 
     3) composer install
 
-    4) edit index.php and change creditionals
+    4) edit index.php and change unite cms credentials and resizing urls
 
     5) open index-php in browser
