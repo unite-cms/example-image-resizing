@@ -1,0 +1,66 @@
+{
+    "title": "my Domain",
+    "identifier": "mydomain",
+    "content_types": [
+      {
+        "title": "Page",
+        "identifier": "page",
+        "content_label": "{type} #{id}",
+        "fields": [
+          {
+            "title": "Headline",
+            "identifier": "headline",
+            "type": "text"
+          },
+          {
+            "title": "Image",
+            "identifier": "image",
+            "type": "image",
+            "settings": {
+              "bucket": {
+                "endpoint": "https://my_s3_storage_provider.com",
+                "bucket": "mybucket",
+                "key": "xxxxx",
+                "secret": "xxxxxxxxxxxxxxx",
+                "path": "myfiles"
+              },
+              "thumbnail_url": "https://your_thumbnailing_service.com/{endpoint}/{id}/{name}"
+            }
+          }
+        ],
+        "views": [
+          {
+            "title": "All",
+            "identifier": "all",
+            "type": "table"
+          }
+        ],
+        "permissions": {
+          "view content": "true",
+          "list content": "true",
+          "create content": "member.type == \"editor\"",
+          "update content": "member.type == \"editor\"",
+          "delete content": "member.type == \"editor\""
+        }
+      }
+    ],
+    "setting_types": [],
+    "domain_member_types": [
+      {
+        "title": "Editor",
+        "identifier": "editor",
+        "domain_member_label": "{accessor}",
+        "fields": []
+      },
+      {
+        "title": "Viewer",
+        "identifier": "viewer",
+        "domain_member_label": "{accessor}",
+        "fields": []
+      }
+    ],
+    "permissions": {
+      "view domain": "true",
+      "update domain": "false"
+    }
+}
