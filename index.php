@@ -20,8 +20,8 @@ use EUAutomation\GraphQL\Client;
 $headers = [];
 
 # unite cms credentials
-$unite_cms_endpoint = 'https://masterking.unitecms.io/mydomain/api';
-$unite_cms_api_token = 'G3YUO2jlCsPKI4hcJV80JHIMQxVXmpd3HI76LqHk0p4';
+$unite_cms_endpoint = 'https://XXXX.unitecms.io/mydomain/api';
+$unite_cms_api_token = 'XXXXXXXXX';
 
 $query = '{
     findPage {
