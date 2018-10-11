@@ -1,4 +1,4 @@
-unite cms graphQl and responsive image resizing example
+unite cms GraphQL and responsive image resizing example
 ================================================
 
 This example shows how to fetch image data from unite-cms over GraphQL and shows some responsive image resizing with 2 image resize Services (cloudimage, thumbor). 
